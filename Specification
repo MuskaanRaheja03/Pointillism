@@ -1,0 +1,24 @@
+Pointillism is the name of a painting technique where patterns of
+coloured dots are used to form the coloured regions of an image. For
+this assignment, you will practice with looping control structures to
+create a program that can read in a source image and create a
+larger 'new' version of that image (i.e., scaled up by an integer
+value) using a pointillist style. Your program will visit each pixel in
+the source image and then draw several coloured shapes on the
+larger image at corresponding (but slightly randomized) positions.
+To clarify, detecting a magenta pixel in the very top left corner of
+your source image should result in you using several red and blue shapes in the top left area of your
+result (although the precise approach for accomplishing this are left for you to investigate yourself).
+In order to complete this task, you will need to:
+• read about the pointillism painting technique online
+• decide on a scaling factor between 4 and 8 that you will use to find the 'new' image dimensions
+• decide whether to use circles, squares, or rectangles as the 'points' to be drawn (using pygame)
+Your submission for this assignment:
+• must be a source code file with filename 'comp1405_f22_#########_assignment_05.py'
+• must NOT import anything other than the pygame, random, and sys libraries
+• must get the name of the source image as a command-line argument
+• must use nested loops to visit each pixel of the source image and get its colour value
+• must use one or more loops to draw an appropriate1 number of 'points' in your 'new' image
+• must randomly alter the position of the drawn 'points' in your 'new' image2
+• must NOT use colours for drawing 'points' other than red, green, blue and (if you wish) black3
+• can assume that the user will always provide the name of a valid image when prompted
